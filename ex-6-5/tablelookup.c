@@ -101,7 +101,7 @@ char *str_dup(char *s){
 	return p; 
 }
 
-void undef(char *s) {
+void undef(char *s) { //the solution for this function was taken from https://github.com/Elyasin/K-and-R-solutions/blob/master/Exercise%206-5/undef.c, after understanding it, as I found it to be a good solution
     struct nlist *currentPtr, *previousPtr;
 
     for (previousPtr = NULL, currentPtr = hashtab[hash(s)]; currentPtr != NULL; previousPtr = currentPtr, currentPtr = currentPtr->next) {
