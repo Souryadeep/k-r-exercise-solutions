@@ -4,6 +4,7 @@
 
 *Solved by*: Souryadeep  
 *Source code*: Folders in the repo are named as per the problem number in the book  
+*Text Book*: [Link to text](https://kremlin.cc/k&r.pdf)
 
 
 # Note
