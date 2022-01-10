@@ -1,6 +1,10 @@
-# K&R exercise solutions
+# The C Programming Language: K&R; Exercise solutions
 
-## Exercise are solved by Souryadeep
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)  
+
+Solved by: Souryadeep  
+Source code: Folders in the repo are named as per the problem number in the book  
+
 
 Each problem can have multiple solutions. I have tried to use the best practices from K&R in my solutions.
 In case you have any doubts, please feel free to reach out to me via email: souryadeep.sen@columbia.edu
