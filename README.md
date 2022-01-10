@@ -2,10 +2,11 @@
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)  
 
-Solved by: Souryadeep  
-Source code: Folders in the repo are named as per the problem number in the book  
+*Solved by*: Souryadeep  
+*Source code*: Folders in the repo are named as per the problem number in the book  
 
 
+# Note
 Each problem can have multiple solutions. I have tried to use the best practices from K&R in my solutions.
 In case you have any doubts, please feel free to reach out to me via email: souryadeep.sen@columbia.edu
 Please submit a pull request if you see some issue with the code/feel it can be improved.
