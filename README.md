@@ -8,18 +8,24 @@
 
 ## Usage  
 
-Install gcc,g++,make on your system.  
+**Install**: gcc,g++,make on your system.  
+
 Note: Installing gcc is sufficient to compile the code in this repo. You may use the base Makefile template in the repo to compile the code. You would need to install make on your system in this case.  
-	- Linux: 
-		- sudo apt update
-		- sudo apt install build-essential
-		- sudo apt-get install manpages-dev
-	- Windows:
-		- Use the following link to download the exe from the MinGW temporary page 
-		- https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download
+
+
+	- Linux:  
+
+		- sudo apt update  
+		- sudo apt install build-essential  
+		- sudo apt-get install manpages-dev  
+
+	- Windows:  
+
+		- Use the following link to download the exe from the MinGW temporary page   
+		- https://sourceforge.net/projects/mingw/files/Installer/mingw-get-setup.exe/download  
 		- Run the executable, and all will be setup  
 
-Optional: If you wish, you could work on solving multiple memory leaks in the code. For this, use Valgrind with the compiled executable, to tell you how many leaks exist in the code. Hint: the leaky codes are the ones where I used malloc and didn't free at the end of the code. 
+**Optional**: If you wish, you could work on solving multiple memory leaks in the code. For this, use Valgrind with the compiled executable, to tell you how many leaks exist in the code. **Hint**: the leaky codes are the ones where I used malloc and didn't free at the end of the code. 
 
 Compiling the code on linux command line/windows command prompt:  
 	- gcc -g -Wall <code>.c -o test  
