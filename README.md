@@ -58,5 +58,4 @@ I am self taught in C programming and have been using 📖 The C Programming Lan
 
 
 [Go to Top](#TOP)
-          section_title<a name="TOP"></a> 
 
