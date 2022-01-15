@@ -8,7 +8,7 @@
 
 ## Usage  
 
-**Install**: gcc,g++,make on your system.  
+**Install**: gcc, g++, make on your system.  
 
 Note: Installing gcc is sufficient to compile the code in this repo. You may use the base Makefile template in the repo to compile the code. You would need to install make on your system in this case.  
 
@@ -28,16 +28,20 @@ Note: Installing gcc is sufficient to compile the code in this repo. You may use
 **Optional**: If you wish, you could work on solving multiple memory leaks in the code. For this, use Valgrind with the compiled executable, to tell you how many leaks exist in the code. **Hint**: the leaky codes are the ones where I used malloc and didn't free at the end of the code. 
 
 Compiling the code on linux command line/windows command prompt:  
-	- gcc -g -Wall <code>.c -o test  
-	- -g flag is a debug flag
-	- -Wall turns on warnings  
+
+	- gcc -g -Wall programname.c -o test  
+	- -g flag is a debug flag  
+	- -Wall turns on warnings    
 	- -o test names the executable as test. If you do not use this, a.out executable is generated  
 
-Executing the code:  
-	- Linux: ./test (run this from the directory test is generated in)  
-	- Windows: test.exe (same comment as above)
 
-Using Valgrind:
+Executing the code:   
+
+	- Linux: ./test (run this from the directory test is generated in)    
+	- Windows: test.exe (same comment as above)  
+
+Using Valgrind:  
+
 	- Only on linux: valgrind --leak-check=yes ./test  
 
 If you are unable to run the code, please feel free to reach out to me in the comments of this repo.  
