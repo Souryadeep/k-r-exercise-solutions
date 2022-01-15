@@ -2,9 +2,11 @@
 
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)  
 
-*Solved by*: Souryadeep  
-*Source code*: Folders in the repo are named as per the problem number in the book  
-*Text Book*: [Link to text](https://kremlin.cc/k&r.pdf)
+**Solved by**: Souryadeep  
+**Source code**: Folders in the repo are named as per the problem number in the book  
+**Text Book**: [Link to text](https://kremlin.cc/k&r.pdf)   
+**Motivation**: Learning a new language can be challenging. I created this repo to serve as a reference to people starting their journey in C programming, to use as a reference.  
+
 
 ## Usage  
 
